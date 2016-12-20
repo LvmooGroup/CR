@@ -1,7 +1,7 @@
-module.exports = {
-    ROBOT_NAME: '机器人小z',
-    INIT_ROOM: 'MDZZ',
-    INIT_ROOM_INFO: '有问题欢迎提issue',
+啥module.exports = {
+    ROBOT_NAME: '五更琉璃',
+    INIT_ROOM: 'Lvmoo',
+    INIT_ROOM_INFO: '暂时还没有啥公告',
     JWT_KEY: 'JWT_KEY',
     ROBOT_URL: 'http://www.tuling123.com/openapi/api',
     ROBOT_KEY: '273e3ca4189a3fc03b4a94db8d87796b',
