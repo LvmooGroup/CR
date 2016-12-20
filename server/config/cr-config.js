@@ -1,4 +1,4 @@
-啥module.exports = {
+module.exports = {
     ROBOT_NAME: '五更琉璃',
     INIT_ROOM: 'Lvmoo',
     INIT_ROOM_INFO: '暂时还没有啥公告',
