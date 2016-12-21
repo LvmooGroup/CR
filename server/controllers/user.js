@@ -10,6 +10,7 @@ const User = require('../models/user-mongo')
 module.exports = {
     createUser: function *(nickname,password,cb) {
         let salt = yield bluebird.promisify(bcrypt.genSalt)(10);
+        //  bcrypt 写法
         password = yield bluebird.promisify(bcrypt.hash)(password,salt);
         //  bcrypt-nodejs 写法
         // password = yield bluebird.promisify(bcrypt.hash)(password,salt,null); 
@@ -26,6 +27,7 @@ module.exports = {
             nickname: nickname,
             password: password,
             avatar: 'http://cr.mdzzapp.com/images/expressions/' + config.AVATAR_ARR[parseInt(Math.random()*39)] + '.png',
+            //新注册用户随机头像从纸张那里获取，等哪天挂了记得修改这个文件
             rooms: [room._id]
         });
         if(resault){ 
