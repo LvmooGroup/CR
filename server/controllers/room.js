@@ -22,6 +22,7 @@ module.exports = {
                 {name: info.roomName},
                 {creater: user._id, users:[user._id]},
                 {avatar: 'http://cr.mdzzapp.com/images/expressions/' + config.AVATAR_ARR[parseInt(Math.random()*39)] + '.png'}
+                //新房间的默认头像从纸张那里获取，要是挂了记得修改
             ));
             user.rooms.push(room._id);
             user.save();
