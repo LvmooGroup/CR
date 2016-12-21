@@ -4,7 +4,7 @@ const favicoNotification = (function (Favico,animation = 'popFade',type = '') {
     var favico = new Favico({
         type: type,
         animation:animation,
-        bgColor : '#2ea3f2',
+        bgColor : '#66ccff',
         textColor : '#fff',
     });
     var count = 0;
@@ -17,7 +17,7 @@ const favicoNotification = (function (Favico,animation = 'popFade',type = '') {
         favico = new Favico({
             type: type,
             animation:animation,
-            bgColor : '#2ea3f2',
+            bgColor : '#66ccff',
             textColor : '#fff',
         });
         count = 0;
