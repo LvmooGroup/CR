@@ -70,10 +70,10 @@ module.exports = {
             cb({
                 nickname: config.ROBOT_NAME,
                 avatar: config.ROBOT_AVATAR,
-                email: '10086@mdzz.com',
+                email: 'no-reply@lvmoo.com',
                 time: '传说中的zz机器人',
                 info: '传说中的zz机器人',
-                sex: '男'
+                sex: '女'
             })
         } else{
             let user = yield User.findOneUser({nickname:nickname});
