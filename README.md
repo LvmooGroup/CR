@@ -22,7 +22,7 @@
 
 ```
 git clone https://github.com/LvmooGroup/Mo.git
-cd CR
+cd Mo
 npm install
 npm run-script client-start # pack front-end code
 npm start # open server, open http://locahost:3000
