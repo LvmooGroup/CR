@@ -21,7 +21,7 @@
 ### Install
 
 ```
-git clone https://github.com/redsx/CR.git
+git clone https://github.com/LvmooGroup/Mo.git
 cd CR
 npm install
 npm run-script client-start # pack front-end code
