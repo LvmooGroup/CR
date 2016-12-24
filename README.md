@@ -1,6 +1,6 @@
 ## A Real-Time Chat Room Build with React
 
-Online demo：[http://cr.mdzzapp.com](http://cr.mdzzapp.com)
+
 
 ### Updates
 
@@ -17,9 +17,6 @@ Online demo：[http://cr.mdzzapp.com](http://cr.mdzzapp.com)
 - Switch notification and fullscreen, customize background image
 - Plugin system
 
-### Screenshot
-
-![x3](./app/images/show.jpeg)
 
 ### Install
 
