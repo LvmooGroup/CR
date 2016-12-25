@@ -4,7 +4,7 @@ import { SET_NOTIFICATION_STATE, SET_AUDIO_STATE, SET_SHIELD_USER, SET_SPECIAL_U
 
 let defaultState = {
     h5Notification: true,
-    audioNotification: false,
+    audioNotification: true,
     special: [],
     shield: [],
     bgImage: ''
