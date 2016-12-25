@@ -35,7 +35,7 @@ class HeadBar extends React.Component {
                     data-flex-box = '0' 
                     className = 'headbar-icon-container'
                 >
-                    <a href = 'https://github.com/redsx/CR' target = '_blank'>
+                    <a href = 'https://github.com/LvmooGroup/Mo' target = '_blank'>
                         <i className = 'headbar-icon'>&#xe691;</i>
                     </a>
                 </div>
